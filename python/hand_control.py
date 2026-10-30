@@ -3,7 +3,7 @@ import mediapipe as mp
 import serial
 import time
 
-# Change COM3 to your Arduino's actual port
+# Change COM5 to your Arduino's actual port
 arduino = serial.Serial("COM5", 9600, timeout=1)
 time.sleep(2)
 
